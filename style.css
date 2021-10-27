@@ -1,7 +1,12 @@
 a {
     text-decoration: none;
 }
+
+
 #alarmOn {
-    color: red;
+    color: blue;
 }
 
+#alarmOff {
+    color: red;
+}

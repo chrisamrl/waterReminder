@@ -4,7 +4,7 @@ chrome.notifications.onClicked.addListener( () => {
 })
 
 chrome.alarms.onAlarm.addListener((alarm) => {
-  if (alarm.name === "myAlarm") {
+  if (alarm.name === "waterAlarm") {
   chrome.notifications.create('WaterReminder', {
     type: 'basic',
     iconUrl: 'image.png',

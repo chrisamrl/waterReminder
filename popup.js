@@ -1,12 +1,13 @@
 var alarmClock = {
 
     onHandler : function(e) {
-        chrome.alarms.create("myAlarm", {periodInMinutes: 1} );
+        chrome.alarms.create("waterAlarm", {periodInMinutes: 30} );
+        document.querySelector(".active")
                 window.close();
     },
 
     offHandler : function(e) {
-        chrome.alarms.clear("myAlarm");
+        chrome.alarms.clear("waterAlarm");
                 window.close();
     },
 
